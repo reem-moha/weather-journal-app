@@ -1,0 +1,122 @@
+body{
+    background: #e3bac1;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-template-columns:  */
+    height:100vh;
+    background: #e3bac1;
+    color: #401245;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.holder{
+    background: #c2b9bb;
+    
+
+}
+
+.entry{
+    background: rgba(242, 241, 245, 0.4);
+    width:auto
+}
+
+#entryHolder{
+    background: rgba(220, 223, 231, 0.4);
+    width:auto
+
+}
+
+#date{
+    background: rgba(218, 138, 187, 0.4);
+
+}
+
+#temp{
+    background: rgba(205, 90, 188, 0.4);
+
+}
+
+#content{
+
+    background: rgba(205, 90, 171, 0.4);
+   
+}
+
+.headline {
+
+    background: rgba(205, 90, 180, 0.4);
+}
+.title{
+    background: rgba(213, 95, 217, 0.4);
+
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 220px;
+    background:#be65ab;
+    color: #211d23;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    width: 400px;
+    height: 100px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 2px 4px #444;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:#be65ab;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #292629; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #42413f; 
+    font-family: 'Oswald', sans-serif;
+
+} 
